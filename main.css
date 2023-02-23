@@ -1,0 +1,137 @@
+body{
+    background-color: #eee;
+}
+
+.navbar{
+    background-color: #515151 !important;
+}
+
+.nav-link{
+    color: white;;
+}
+
+.nav-link:hover{
+    color: #959191;
+}
+
+.img-portada{
+    width: 100%;
+}
+
+.naranja{
+    color: #ff7a46;
+}
+
+.rojo{
+    color: red;
+}
+
+.masInfo{
+    font-size: small;
+}
+
+.participar{
+    background-color: #2e2e2e;
+}
+
+.txt-blanco{
+    color: rgb(235, 235, 235);
+}
+
+.futbolero{
+    color: #0e6f50;
+}
+
+.memorama{
+    color: white;
+}
+.memorama-sm{
+    display: none;
+}
+
+.btn-jugar{
+    margin-left: 47% !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.rankin-sm{
+    display: none !important;
+}
+
+.portada-sm{
+    display: none;
+}
+
+
+/*TAMAÑO SM*/
+@media (min-width: 300px) and (max-width: 500px){
+.img-portada{
+    width: 100%;
+}
+
+.memorama-lg{
+    display: none;
+}
+
+.memorama-sm{
+    display: block;
+}
+
+.btn-jugar{
+    margin-left: 45% !important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+.rankin-lg{
+    display: none;
+}
+
+.portada-lg{
+    display: none;
+}
+
+.portada-sm{
+    display: block;
+}
+
+.img-sm{
+    width: 80% !important;
+}
+
+.rankin-lg{
+    display: none !important;
+}
+
+.rankin-sm{
+    display: block !important;
+
+    margin-left: 39%;
+}
+}
+
+/* TAMAÑO MD */
+@media (min-width: 501px) and (max-width: 992px) { 
+ .memorama-sm{
+    display: none;
+ }
+
+ .rankin-sm{
+    display: none !important;
+ }
+
+ .rankin-lg{
+    display: block;
+    width: 60% !important;
+    margin-left: 20%;
+ }
+
+ .portada-sm{
+    display: none;
+ }
+}

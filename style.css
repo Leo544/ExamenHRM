@@ -65,6 +65,11 @@ a{
     display: none;
 }
 
+.navbar-toggler{
+    border: white !important;
+    background-color: white !important;
+}
+
 
 /*TAMAÑO SM*/
 @media (min-width: 300px) and (max-width: 500px){
